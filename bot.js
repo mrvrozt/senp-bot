@@ -4,8 +4,9 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
 console.log(`Logged in as ${client.user.tag}!`);
-client.user.setActivity("with Bobbo", { type: "PLAYING"}).catch(console.error);
+  
+      client.user.setPresence({
+      game: { name: 'with Bobbo', url: "undefined" }
+    })
 });
-
-
 client.login(process.env.BOT_TOKEN);
