@@ -22,7 +22,7 @@ client.on('message', message => {
 	}
   
   if (msg.includes(`HOLD ME LEIB`)){
-		message.channel.send(`${message.author} I'm holding you *pats* I'ts okay, everything's gonna be just fine`);
+		message.channel.send(`${message.author} I'm holding you *pats* I'ts okay, everything's gonna be just fine <:smoiles:600081599320817685>`);
 	}
 
 });
