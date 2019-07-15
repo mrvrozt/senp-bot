@@ -9,7 +9,7 @@ const client = new Discord.Client();
 //3: watching
 
 client.on('ready', () => {
-client.user.setPresence({ game: { name: `JoJo's Bizarre Adventure: Golden Wind`, type: 3 } });
+client.user.setPresence({ game: { name: `Fallout: New Vegas`, type: 0 } });
 });
 
 client.on('message', message => {
@@ -22,7 +22,7 @@ client.on('message', message => {
 	}
   
   if (msg.includes(`HOLD ME LEIB`)){
-		message.channel.send(`${message.author} I'm holding you *pats* I'ts okay, everything's gonna be just fine <:smoiles:600081599320817685>`);
+		message.channel.send(`${message.author} I'm holding you *pats* It's okay, everything's gonna be just fine <:smoiles:600081599320817685>`);
 	}
 
 });
