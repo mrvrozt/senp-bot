@@ -9,7 +9,7 @@ const client = new Discord.Client();
 //3: watching
 
 client.on('ready', () => {
-client.user.setPresence({ game: { name: `with Tsathoggua`, type: 0 } });
+client.user.setPresence({ game: { name: `Sdorica -mirage- with Tsathoggua`, type: 0 } });
 });
 
 client.on('message', message => {
