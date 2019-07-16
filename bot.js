@@ -23,7 +23,10 @@ client.on('message', message => {
   
   if (msg.includes(`HOLD ME LEIB`)){
 		message.channel.send(`${message.author} I'm holding you *pats* It's okay, everything's gonna be just fine <:smoiles:600081599320817685>`);
-	}
+	  
+  if (msg.includes(`:GRINNLEIB:`)){
+		message.channel.send(`<:grinnleib:533180556637372428>`);
+  }
 
 });
   
