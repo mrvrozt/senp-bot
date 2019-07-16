@@ -25,8 +25,20 @@ client.on('message', message => {
 		message.channel.send(`${message.author} I'm holding you *pats* It's okay, everything's gonna be just fine <:smoiles:600081599320817685>`);
   }
 	
-  if (msg.includes(`:GRINNLEIB:`)){
+  if (msg.includes(`HAHAHA`)){
 		message.react('533180556637372428');
+  }
+	
+  if (msg.includes(`HAHA`)){
+		message.react('533180556637372428');
+  }
+	
+  if (msg.includes(`NICE`)){
+		message.react('561059592667136017');
+  }
+	
+  if (msg.includes(`NOICE`)){
+		message.react('561059592667136017');
   }
 
 });
