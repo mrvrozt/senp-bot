@@ -25,7 +25,7 @@ client.on('message', message => {
 		message.channel.send(`${message.author} I'm holding you *pats* It's okay, everything's gonna be just fine <:smoiles:600081599320817685>`);
 	  
   if (msg.includes(`:GRINNLEIB:`)){
-		message.react(`<:grinnleib:533180556637372428>`);
+		message.react('533180556637372428');
   }
 
 });
