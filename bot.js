@@ -7,10 +7,20 @@ const client = new Discord.Client();
 //1: streaming
 //2: listening
 //3: watching
+let statuses = ["FAULTLINES - Breathe", 
+"My Chemical Romance - Welcome to the Black Parade", 
+"Evanescence - Everybody's Fool ", 
+"Seether - Words As Weapons"];
 
 client.on('ready', () => {
 //client.user.setPresence({ game: { name: `Sdorica -mirage- with Tsathoggua`, type: 0 } });
-client.user.setPresence({ game: { name: `FAULTLINES - Breathe`, type: 2 } });
+//client.user.setPresence({ game: { name: `FAULTLINES - Breathe`, type: 2 } });
+	
+	setInterval(function() {
+		let status = statuses[Math.floor(Math.random()*statuses.length)];
+		client.user.setPresence({ game: { name: status }, status: 'online', type: 2 });
+		}, 180000);
+	
 	
 });
 
