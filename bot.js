@@ -9,7 +9,21 @@ const client = new Discord.Client();
 //3: watching
 let statuses = ["FAULTLINES - Breathe", 
 "My Chemical Romance - Welcome to the Black Parade", 
-"Evanescence - Everybody's Fool ", 
+"Evanescence - Everybody's Fool ",
+"Anderson Paak - Come Down",
+"Bring Me The Horizon - Run",
+"Dizzee Rascal - Heart Of A Warrior",
+"Fall Out Boy - Champion",
+"iSHi - We Run",
+"Tech N9ne - Straight Out the Gate",
+"Twenty One Pilots - Heavydirtysoul",
+"The Weeknd - Party Monster",
+"Imagine Dragons - Whatever It Takes",
+"System Of A Down - Toxicity",
+"Naughty Boy - Runnin' (Lose It All)",
+"Sia - Chandelier",
+"Sean Paul - She Doesn't Mind",
+"Charlie Puth - We Don't Talk Anymore",
 "Seether - Words As Weapons"];
 
 client.on('ready', () => {
@@ -19,7 +33,7 @@ client.on('ready', () => {
 	setInterval(function() {
 		let status = statuses[Math.floor(Math.random()*statuses.length)];
 		client.user.setPresence({ game: { name: status, type: 2 } });
-		}, 10000);
+		}, 180000);
 	
 	
 });
