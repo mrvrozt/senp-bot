@@ -88,11 +88,23 @@ if (sender.id === `599466909708189706`){
 
 //--CHIT CHAT---
 //--Regular--
+if (msg.content.toLowerCase().startsWith(`hi <@599466909708189706>`)) {
+    msg.channel.send(`Hello! <:grinz:603408755677200412>`);
+   }
+if (msg.content.toLowerCase().startsWith(`hello <@599466909708189706>`)) {
+    msg.channel.send(`Greetings! <:grinz:603408755677200412>`);
+   }
+if (msg.content.toLowerCase().startsWith(`<@599466909708189706> hi`)) {
+    msg.channel.send(`Hello! <:grinz:603408755677200412>`);
+   }
+if (msg.content.toLowerCase().startsWith(`<@599466909708189706> hello`)) {
+    msg.channel.send(`Greetings! <:grinz:603408755677200412>`);
+   }
 if (msg.content.toLowerCase().includes(`<@599466909708189706>`)) {
 		var msg1 = Array(5); 
 		msg1[1] = `${msg.author} Can I help you?`;
 	    	msg1[2] = `${msg.author} Huh?`;
-		msg1[3] = `${msg.author} You say something?`;
+		msg1[3] = `${msg.author} Yeah?`;
 		msg1[4] = `${msg.author} What?`;
 		msg1[5] = `${msg.author} :question:`
 		msg1[6] = `${msg.author} You know I love Bobbo so much <:luv:550567524320804875>`
@@ -119,27 +131,27 @@ if (msg.content.toLowerCase().includes(`<@599466909708189706>`)) {
 			msg.channel.send(msg1[6])
 		}
 }
-if (msg.content.toLowerCase().startsWith(`hi <@599466909708189706>`)) {
-    msg.channel.send(`${msg.author} Hello! <:grinz:603408755677200412>`);
-   }
-if (msg.content.toLowerCase().startsWith(`hello <@599466909708189706>`)) {
-    msg.channel.send(`${msg.author} Greetings! <:grinz:603408755677200412>`);
-   }
-if (msg.content.toLowerCase().startsWith(`<@599466909708189706> hi`)) {
-    msg.channel.send(`${msg.author} Hello! <:grinz:603408755677200412>`);
-   }
-if (msg.content.toLowerCase().startsWith(`<@599466909708189706> hello`)) {
-    msg.channel.send(`${msg.author} Greetings! <:grinz:603408755677200412>`);
-   }
 
 
 
 //--!--
+if (msg.content.toLowerCase().startsWith(`hi <@!599466909708189706>`)) {
+    msg.channel.send(`Hello! <:grinz:603408755677200412>`);
+   }
+if (msg.content.toLowerCase().startsWith(`hello <@!599466909708189706>`)) {
+    msg.channel.send(`Greetings! <:grinz:603408755677200412>`);
+   }
+if (msg.content.toLowerCase().startsWith(`<@!599466909708189706> hi`)) {
+    msg.channel.send(`Hello! <:grinz:603408755677200412>`);
+   }
+if (msg.content.toLowerCase().startsWith(`<@!599466909708189706> hello`)) {
+    msg.channel.send(`Greetings! <:grinz:603408755677200412>`);
+   }
 if (msg.content.toLowerCase().includes("<!@599466909708189706>")) {
 		var msg1 = Array(5); 
 		msg1[1] = `${msg.author} Can I help you?`;
 	    	msg1[2] = `${msg.author} Huh?`;
-		msg1[3] = `${msg.author} You say something?`;
+		msg1[3] = `${msg.author} Yeah?`;
 		msg1[4] = `${msg.author} What?`;
 		msg1[5] = `${msg.author} :question:`
 		msg1[6] = `${msg.author} You know I love Bobbo so much <:luv:550567524320804875>`
@@ -166,18 +178,7 @@ if (msg.content.toLowerCase().includes("<!@599466909708189706>")) {
 			msg.channel.send(msg1[6])
 		}
 }
-if (msg.content.toLowerCase().startsWith(`hi <@!599466909708189706>`)) {
-    msg.channel.send(`${msg.author} Hello! <:grinz:603408755677200412>`);
-   }
-if (msg.content.toLowerCase().startsWith(`hello <@!599466909708189706>`)) {
-    msg.channel.send(`${msg.author} Greetings! <:grinz:603408755677200412>`);
-   }
-if (msg.content.toLowerCase().startsWith(`<@!599466909708189706> hi`)) {
-    msg.channel.send(`${msg.author} Hello! <:grinz:603408755677200412>`);
-   }
-if (msg.content.toLowerCase().startsWith(`<@!599466909708189706> hello`)) {
-    msg.channel.send(`${msg.author} Greetings! <:grinz:603408755677200412>`);
-   }
+
 
 
 
