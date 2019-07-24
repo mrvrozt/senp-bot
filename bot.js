@@ -73,7 +73,24 @@ client.on('message', message => {
   }
 
 });
-  
 
+client.on('message', msg => {
+	
+var sender = msg.author;	
+function getRandomInt(min, max) {
+min = Math.ceil(min);
+max = Math.floor(max);
+return Math.floor(Math.random() * (max - min)) + min; }
+	
+if (sender.id === `599466909708189706`){
+		return;
+   }
+	
+if (msg.content.toLowerCase().startsWith(`!howgay ${msg.user}`)) {
+    msg.channel.send(`${msg.user} `+ getRandomInt(1, 100)+"% gay *aru*! :gay_pride_flag:");
+   }
+	
+});
+  
 
 client.login(process.env.BOT_TOKEN);
