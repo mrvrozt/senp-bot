@@ -86,8 +86,8 @@ if (sender.id === `599466909708189706`){
 		return;
    }
 	
-if (msg.content.toLowerCase().startsWith(`!howgay ${user}`)) {
-    msg.channel.send(`${user} `+ getRandomInt(1, 100)+"% gay *aru*! :gay_pride_flag:");
+if (msg.content.toLowerCase().startsWith(`!howgay <@557942571238817802>`)) {
+    msg.channel.send(`<@557942571238817802> `+ getRandomInt(1, 100)+"% gay *aru*! :gay_pride_flag:");
    }
 	
 });
