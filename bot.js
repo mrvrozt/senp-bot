@@ -76,7 +76,7 @@ client.on('message', message => {
 
 client.on('message', msg => {
 
-var sender = msg.author;	
+var sender = msg.author;
 function getRandomInt(min, max) {
 min = Math.ceil(min);
 max = Math.floor(max);
@@ -87,11 +87,38 @@ if (sender.id === `599466909708189706`){
    }
 
 //--CHIT CHAT---
+//--Regular--
+if (msg.content.toLowerCase().startsWith(`<@599466909708189706>`)) {
+    msg.channel.send(`${msg.author} Can i help you?`);
+   }
 if (msg.content.toLowerCase().startsWith(`hi <@599466909708189706>`)) {
-    msg.channel.send(`${message.author} Hello! <:grinz:603408755677200412>`);
+    msg.channel.send(`${msg.author} Hello! <:grinz:603408755677200412>`);
    }
 if (msg.content.toLowerCase().startsWith(`hello <@599466909708189706>`)) {
-    msg.channel.send(`${message.author} Greetings! <:grinz:603408755677200412>`);
+    msg.channel.send(`${msg.author} Greetings! <:grinz:603408755677200412>`);
+   }
+if (msg.content.toLowerCase().startsWith(`<@599466909708189706> hi`)) {
+    msg.channel.send(`${msg.author} Hello! <:grinz:603408755677200412>`);
+   }
+if (msg.content.toLowerCase().startsWith(`<@599466909708189706> hello`)) {
+    msg.channel.send(`${msg.author} Greetings! <:grinz:603408755677200412>`);
+   }
+
+//--!--
+if (msg.content.toLowerCase().startsWith(`<@!599466909708189706>`)) {
+    msg.channel.send(`${msg.author} Can i help you?`);
+   }
+if (msg.content.toLowerCase().startsWith(`hi <@!599466909708189706>`)) {
+    msg.channel.send(`${msg.author} Hello! <:grinz:603408755677200412>`);
+   }
+if (msg.content.toLowerCase().startsWith(`hello <@!599466909708189706>`)) {
+    msg.channel.send(`${msg.author} Greetings! <:grinz:603408755677200412>`);
+   }
+if (msg.content.toLowerCase().startsWith(`<@!599466909708189706> hi`)) {
+    msg.channel.send(`${msg.author} Hello! <:grinz:603408755677200412>`);
+   }
+if (msg.content.toLowerCase().startsWith(`<@!599466909708189706> hello`)) {
+    msg.channel.send(`${msg.author} Greetings! <:grinz:603408755677200412>`);
    }
 	
 	
