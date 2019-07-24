@@ -75,7 +75,7 @@ client.on('message', message => {
 });
 
 client.on('message', msg => {
-	
+
 var sender = msg.author;	
 function getRandomInt(min, max) {
 min = Math.ceil(min);
@@ -85,9 +85,15 @@ return Math.floor(Math.random() * (max - min)) + min; }
 if (sender.id === `599466909708189706`){
 		return;
    }
-	
-if (msg.content.toLowerCase().startsWith(`!howgay <@557942571238817802>`)) {
-    msg.channel.send(`<@557942571238817802> `+ getRandomInt(1, 100)+"% gay *aru*! :gay_pride_flag:");
+
+//Tsathoggua
+if (msg.content.toLowerCase().startsWith(`!howgay <@!557942571238817802>`)) {
+    msg.channel.send(`<@!557942571238817802> `+ getRandomInt(1, 100)+"% gay! :gay_pride_flag:");
+   }
+
+//Leib
+if (msg.content.toLowerCase().startsWith(`!howgay <@!599466909708189706>`)) {
+    msg.channel.send(`<@!599466909708189706> `+ getRandomInt(1, 100)+"% gay! :gay_pride_flag:");
    }
 	
 });
