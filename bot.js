@@ -68,7 +68,7 @@ client.on('message', message => {
   }
 	
   if (msg.startsWith(`!PING`)){
-		message.channel.send(`${message.author} Pong <:smoiles:600081599320817685> :ping_pong: ` + Math.round(client.ping) + ` ms!`);
+		message.channel.send(`${message.author} Pong <:grinz:603408755677200412> :ping_pong: ` + Math.round(client.ping) + ` ms!`);
 		//message.channel.send(`${message.author} Pong! `);
   }
 
