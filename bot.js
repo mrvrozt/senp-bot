@@ -88,7 +88,7 @@ if (sender.id === `599466909708189706`){
 
 //--CHIT CHAT---
 //--Regular--
-if (msg.content.toLowerCase().startsWith(`<@599466909708189706>`)) {
+if (msg.content.toLowerCase().includes(`<@599466909708189706>`)) {
 		var msg1 = Array(5); 
 		msg1[1] = `${msg.author} Can I help you?`;
 	    	msg1[2] = `${msg.author} Huh?`;
@@ -125,10 +125,17 @@ if (msg.content.toLowerCase().startsWith(`hi <@599466909708189706>`)) {
 if (msg.content.toLowerCase().startsWith(`hello <@599466909708189706>`)) {
     msg.channel.send(`${msg.author} Greetings! <:grinz:603408755677200412>`);
    }
+if (msg.content.toLowerCase().startsWith(`<@599466909708189706> hi`)) {
+    msg.channel.send(`${msg.author} Hello! <:grinz:603408755677200412>`);
+   }
+if (msg.content.toLowerCase().startsWith(`<@599466909708189706> hello`)) {
+    msg.channel.send(`${msg.author} Greetings! <:grinz:603408755677200412>`);
+   }
+
 
 
 //--!--
-if (msg.content.toLowerCase().startsWith("<!@599466909708189706>")) {
+if (msg.content.toLowerCase().includes("<!@599466909708189706>")) {
 		var msg1 = Array(5); 
 		msg1[1] = `${msg.author} Can I help you?`;
 	    	msg1[2] = `${msg.author} Huh?`;
@@ -165,9 +172,15 @@ if (msg.content.toLowerCase().startsWith(`hi <@!599466909708189706>`)) {
 if (msg.content.toLowerCase().startsWith(`hello <@!599466909708189706>`)) {
     msg.channel.send(`${msg.author} Greetings! <:grinz:603408755677200412>`);
    }
+if (msg.content.toLowerCase().startsWith(`<@!599466909708189706> hi`)) {
+    msg.channel.send(`${msg.author} Hello! <:grinz:603408755677200412>`);
+   }
+if (msg.content.toLowerCase().startsWith(`<@!599466909708189706> hello`)) {
+    msg.channel.send(`${msg.author} Greetings! <:grinz:603408755677200412>`);
+   }
 
-	
-	
+
+
 //---MENTION PART---
 //Tsathoggua
 if (msg.content.toLowerCase().startsWith(`!howgay <@557942571238817802>`)) {
