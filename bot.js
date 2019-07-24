@@ -86,156 +86,164 @@ if (sender.id === `599466909708189706`){
 		return;
    }
 
-
-
+//--CHIT CHAT---
+if (msg.content.toLowerCase().startsWith(`hi <@599466909708189706>`)) {
+    msg.channel.send(`${message.author} Hello! <:grinz:603408755677200412>`);
+   }
+if (msg.content.toLowerCase().startsWith(`hello <@599466909708189706>`)) {
+    msg.channel.send(`${message.author} Greetings! <:grinz:603408755677200412>`);
+   }
+	
+	
+//---MENTION PART---
 //Tsathoggua
 if (msg.content.toLowerCase().startsWith(`!howgay <@557942571238817802>`)) {
-    msg.channel.send(`<@557942571238817802> `+ getRandomInt(1, 100)+"% gay! :gay_pride_flag:");
+    msg.channel.send(`<@557942571238817802> are `+ getRandomInt(1, 100)+"% gay! :gay_pride_flag:");
    }
   
 //Tsathoggua!
 if (msg.content.toLowerCase().startsWith(`!howgay <@!557942571238817802>`)) {
-    msg.channel.send(`<@!557942571238817802> `+ getRandomInt(1, 100)+"% gay! :gay_pride_flag:");
+    msg.channel.send(`<@!557942571238817802> are `+ getRandomInt(1, 100)+"% gay! :gay_pride_flag:");
    }
 
 //Leib
 if (msg.content.toLowerCase().startsWith(`!howgay <@599466909708189706>`)) {
-    msg.channel.send(`<@!599466909708189706> `+ getRandomInt(1, 100)+"% gay! :gay_pride_flag:");
+    msg.channel.send(`<@!599466909708189706> are `+ getRandomInt(1, 100)+"% gay! :gay_pride_flag:");
    }
 
 //Leib!
 if (msg.content.toLowerCase().startsWith(`!howgay <@!599466909708189706>`)) {
-    msg.channel.send(`<@!599466909708189706> `+ getRandomInt(1, 100)+"% gay! :gay_pride_flag:");
+    msg.channel.send(`<@!599466909708189706> are `+ getRandomInt(1, 100)+"% gay! :gay_pride_flag:");
    }
 
 //Bobbo
 if (msg.content.toLowerCase().startsWith(`!howgay <@284503198163664906>`)) {
-    msg.channel.send(`<@284503198163664906> `+ getRandomInt(1, 100)+"% gay! :gay_pride_flag:");
+    msg.channel.send(`<@284503198163664906> are `+ getRandomInt(1, 100)+"% gay! :gay_pride_flag:");
    }
 
 //Bobbo!
 if (msg.content.toLowerCase().startsWith(`!howgay <@!284503198163664906>`)) {
-    msg.channel.send(`<@!284503198163664906> `+ getRandomInt(1, 100)+"% gay! :gay_pride_flag:");
+    msg.channel.send(`<@!284503198163664906> are `+ getRandomInt(1, 100)+"% gay! :gay_pride_flag:");
    }
 
 //BigBeaw
 if (msg.content.toLowerCase().startsWith(`!howgay <@498363941148295178>`)) {
-    msg.channel.send(`<@498363941148295178> `+ getRandomInt(1, 100)+"% gay! :gay_pride_flag:");
+    msg.channel.send(`<@498363941148295178> are `+ getRandomInt(1, 100)+"% gay! :gay_pride_flag:");
    }
 
 //BigBeaw!
 if (msg.content.toLowerCase().startsWith(`!howgay <@!498363941148295178>`)) {
-    msg.channel.send(`<@!498363941148295178> `+ getRandomInt(1, 100)+"% gay! :gay_pride_flag:");
+    msg.channel.send(`<@!498363941148295178> are `+ getRandomInt(1, 100)+"% gay! :gay_pride_flag:");
    }
 
 //Pokie
 if (msg.content.toLowerCase().startsWith(`!howgay <@364159456822427662>`)) {
-    msg.channel.send(`<@364159456822427662> `+ getRandomInt(1, 100)+"% gay! :gay_pride_flag:");
+    msg.channel.send(`<@364159456822427662> are `+ getRandomInt(1, 100)+"% gay! :gay_pride_flag:");
    }
 
 //Pokie!
 if (msg.content.toLowerCase().startsWith(`!howgay <@!364159456822427662>`)) {
-    msg.channel.send(`<@!364159456822427662> `+ getRandomInt(1, 100)+"% gay! :gay_pride_flag:");
+    msg.channel.send(`<@!364159456822427662> are `+ getRandomInt(1, 100)+"% gay! :gay_pride_flag:");
    }
 
 //gabu
 if (msg.content.toLowerCase().startsWith(`!howgay <@330204645278613504>`)) {
-    msg.channel.send(`<@330204645278613504> `+ getRandomInt(1, 100)+"% gay! :gay_pride_flag:");
+    msg.channel.send(`<@330204645278613504> are `+ getRandomInt(1, 100)+"% gay! :gay_pride_flag:");
    }
 
 //gabu!
 if (msg.content.toLowerCase().startsWith(`!howgay <@!330204645278613504>`)) {
-    msg.channel.send(`<@!330204645278613504> `+ getRandomInt(1, 100)+"% gay! :gay_pride_flag:");
+    msg.channel.send(`<@!330204645278613504> are `+ getRandomInt(1, 100)+"% gay! :gay_pride_flag:");
    }
 
 //June
 if (msg.content.toLowerCase().startsWith(`!howgay <@171184536158339073>`)) {
-    msg.channel.send(`<@171184536158339073> `+ getRandomInt(1, 100)+"% gay! :gay_pride_flag:");
+    msg.channel.send(`<@171184536158339073> are `+ getRandomInt(1, 100)+"% gay! :gay_pride_flag:");
    }
 
 //June!
 if (msg.content.toLowerCase().startsWith(`!howgay <@!171184536158339073>`)) {
-    msg.channel.send(`<@!171184536158339073> `+ getRandomInt(1, 100)+"% gay! :gay_pride_flag:");
+    msg.channel.send(`<@!171184536158339073> are `+ getRandomInt(1, 100)+"% gay! :gay_pride_flag:");
    }
 
 //Lunar
 if (msg.content.toLowerCase().startsWith(`!howgay <@456940234714775587>`)) {
-    msg.channel.send(`<@456940234714775587> `+ getRandomInt(1, 100)+"% gay! :gay_pride_flag:");
+    msg.channel.send(`<@456940234714775587> are `+ getRandomInt(1, 100)+"% gay! :gay_pride_flag:");
    }
 
 //Lunar!
 if (msg.content.toLowerCase().startsWith(`!howgay <@!456940234714775587>`)) {
-    msg.channel.send(`<@!456940234714775587> `+ getRandomInt(1, 100)+"% gay! :gay_pride_flag:");
+    msg.channel.send(`<@!456940234714775587> are `+ getRandomInt(1, 100)+"% gay! :gay_pride_flag:");
    }
 
 //Steve
 if (msg.content.toLowerCase().startsWith(`!howgay <@186445902188118016>`)) {
-    msg.channel.send(`<@186445902188118016> `+ getRandomInt(1, 100)+"% gay! :gay_pride_flag:");
+    msg.channel.send(`<@186445902188118016> are `+ getRandomInt(1, 100)+"% gay! :gay_pride_flag:");
    }
 
 //Steve!
 if (msg.content.toLowerCase().startsWith(`!howgay <@!186445902188118016>`)) {
-    msg.channel.send(`<@!186445902188118016> `+ getRandomInt(1, 100)+"% gay! :gay_pride_flag:");
+    msg.channel.send(`<@!186445902188118016> are `+ getRandomInt(1, 100)+"% gay! :gay_pride_flag:");
    }
 
 //Kyle
 if (msg.content.toLowerCase().startsWith(`!howgay <@239398825289187328>`)) {
-    msg.channel.send(`<@239398825289187328> `+ getRandomInt(1, 100)+"% gay! :gay_pride_flag:");
+    msg.channel.send(`<@239398825289187328> are `+ getRandomInt(1, 100)+"% gay! :gay_pride_flag:");
    }
 
 //Kyle!
 if (msg.content.toLowerCase().startsWith(`!howgay <@!239398825289187328>`)) {
-    msg.channel.send(`<@!239398825289187328> `+ getRandomInt(1, 100)+"% gay! :gay_pride_flag:");
+    msg.channel.send(`<@!239398825289187328> are `+ getRandomInt(1, 100)+"% gay! :gay_pride_flag:");
    }
 
 //Daniel
 if (msg.content.toLowerCase().startsWith(`!howgay <@459766201019662337>`)) {
-    msg.channel.send(`<@459766201019662337> `+ getRandomInt(1, 100)+"% gay! :gay_pride_flag:");
+    msg.channel.send(`<@459766201019662337> are `+ getRandomInt(1, 100)+"% gay! :gay_pride_flag:");
    }
 
 //Daniel!
 if (msg.content.toLowerCase().startsWith(`!howgay <@!459766201019662337>`)) {
-    msg.channel.send(`<@!459766201019662337> `+ getRandomInt(1, 100)+"% gay! :gay_pride_flag:");
+    msg.channel.send(`<@!459766201019662337> are `+ getRandomInt(1, 100)+"% gay! :gay_pride_flag:");
    }
 
 //Kalki
 if (msg.content.toLowerCase().startsWith(`!howgay <@356065937318871041>`)) {
-    msg.channel.send(`<@356065937318871041> `+ getRandomInt(1, 100)+"% gay! :gay_pride_flag:");
+    msg.channel.send(`<@356065937318871041> are `+ getRandomInt(1, 100)+"% gay! :gay_pride_flag:");
    }
 
 //Kalki!
 if (msg.content.toLowerCase().startsWith(`!howgay <@!356065937318871041>`)) {
-    msg.channel.send(`<@!356065937318871041> `+ getRandomInt(1, 100)+"% gay! :gay_pride_flag:");
+    msg.channel.send(`<@!356065937318871041> are `+ getRandomInt(1, 100)+"% gay! :gay_pride_flag:");
    }
 
 //Salomon
 if (msg.content.toLowerCase().startsWith(`!howgay <@159985870458322944>`)) {
-    msg.channel.send(`<@159985870458322944> `+ getRandomInt(1, 100)+"% gay! :gay_pride_flag:");
+    msg.channel.send(`<@159985870458322944> are `+ getRandomInt(1, 100)+"% gay! :gay_pride_flag:");
    }
 
 //Salomon!
 if (msg.content.toLowerCase().startsWith(`!howgay <@!159985870458322944>`)) {
-    msg.channel.send(`<@!159985870458322944> `+ getRandomInt(1, 100)+"% gay! :gay_pride_flag:");
+    msg.channel.send(`<@!159985870458322944> are `+ getRandomInt(1, 100)+"% gay! :gay_pride_flag:");
    }
 
 //Slime
 if (msg.content.toLowerCase().startsWith(`!howgay <@127296623779774464>`)) {
-    msg.channel.send(`<@127296623779774464> `+ getRandomInt(1, 100)+"% gay! :gay_pride_flag:");
+    msg.channel.send(`<@127296623779774464> are `+ getRandomInt(1, 100)+"% gay! :gay_pride_flag:");
    }
 
 //Slime!
 if (msg.content.toLowerCase().startsWith(`!howgay <@!127296623779774464>`)) {
-    msg.channel.send(`<@!127296623779774464> `+ getRandomInt(1, 100)+"% gay! :gay_pride_flag:");
+    msg.channel.send(`<@!127296623779774464> are `+ getRandomInt(1, 100)+"% gay! :gay_pride_flag:");
    }
 
 //Vince
 if (msg.content.toLowerCase().startsWith(`!howgay <@476316076288901131>`)) {
-    msg.channel.send(`<@476316076288901131> `+ getRandomInt(1, 100)+"% gay! :gay_pride_flag:");
+    msg.channel.send(`<@476316076288901131> are `+ getRandomInt(1, 100)+"% gay! :gay_pride_flag:");
    }
 
 //Vince!
 if (msg.content.toLowerCase().startsWith(`!howgay <@!476316076288901131>`)) {
-    msg.channel.send(`<@!476316076288901131> `+ getRandomInt(1, 100)+"% gay! :gay_pride_flag:");
+    msg.channel.send(`<@!476316076288901131> are `+ getRandomInt(1, 100)+"% gay! :gay_pride_flag:");
    }
 
 	
