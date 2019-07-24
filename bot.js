@@ -66,6 +66,11 @@ client.on('message', message => {
   if (msg.includes(`NOICE`)){
 		message.react('561059592667136017');
   }
+	
+  if (msg.startsWith(`!PING`)){
+		message.channel.send(`${message.author} Pong <:smoiles:600081599320817685> :ping_pong: ` + Math.round(client.ping) + ` ms!`);
+		//message.channel.send(`${message.author} Pong! `);
+  }
 
 });
   
