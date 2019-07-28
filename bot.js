@@ -144,7 +144,7 @@ if (msg.content.toLowerCase().startsWith(`<@!599466909708189706> hi`)) {
 if (msg.content.toLowerCase().startsWith(`<@!599466909708189706> hello`)) {
     msg.channel.send(`Greetings! <:grinz:603408755677200412>`);
    }
-if (msg.content.toLowerCase().includes("<!@599466909708189706>")) {
+if (msg.content.toLowerCase().includes("<@!599466909708189706>")) {
 		var msg1 = Array(5); 
 		msg1[1] = `${msg.author} Can I help you?`;
 	    	msg1[2] = `${msg.author} Huh?`;
