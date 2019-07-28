@@ -104,7 +104,8 @@ if (msg.content.toLowerCase().includes(`<@599466909708189706>`)) {
 		msg1[3] = `${msg.author} Yeah?`;
 		msg1[4] = `${msg.author} What?`;
 		msg1[5] = `${msg.author} :question:`
-		msg1[6] = `${msg.author} You know I love Bobbo so much <:luv:550567524320804875>`
+		msg1[6] = `${msg.author} Sup?`
+		//msg1[6] = `${msg.author} You know I love Bobbo so much <:luv:550567524320804875>`
         	var x = getRandomInt(0, 20);
 		if (x < 5){ 
         	if (x < 3){
