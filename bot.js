@@ -29,11 +29,12 @@ let statuses = ["FAULTLINES - Breathe",
 client.on('ready', () => {
 //client.user.setPresence({ game: { name: `Sdorica -mirage- with Tsathoggua`, type: 0 } });
 //client.user.setPresence({ game: { name: `FAULTLINES - Breathe`, type: 2 } });
+client.user.setPresence({ game: { name: `Pornhub`, type: 3 } });
 	
-	setInterval(function() {
-		let status = statuses[Math.floor(Math.random()*statuses.length)];
-		client.user.setPresence({ game: { name: status, type: 2 } });
-		}, 180000);
+	//setInterval(function() {
+		//let status = statuses[Math.floor(Math.random()*statuses.length)];
+		//client.user.setPresence({ game: { name: status, type: 2 } });
+		//}, 180000);
 	
 	
 });
