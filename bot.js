@@ -66,7 +66,7 @@ client.on('message', message => {
   }
 	
   if (msg.startsWith(`!PING`)){
-	        message.delete;
+	        message.delete();
 		message.channel.send(`${message.author} Pong <:grinz:603408755677200412> :ping_pong: ` + Math.round(client.ping) + ` ms!`);
 		//message.channel.send(`${message.author} Pong! `);
   }
