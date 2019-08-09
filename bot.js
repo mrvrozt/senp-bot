@@ -47,7 +47,6 @@ client.on('message', message => {
   if (sender.id === `599466909708189706`){
 		return;
 	}
-  
 	
   if (msg.includes(`HAHAHA`)){
 		message.react('533180556637372428');
@@ -69,6 +68,10 @@ client.on('message', message => {
 	        message.delete();
 		message.channel.send(`${message.author} Pong <:grinz:603408755677200412> :ping_pong: ` + Math.round(client.ping) + ` ms!`);
 		//message.channel.send(`${message.author} Pong! `);
+  }
+	
+  if (msg.startsWith(`!FEAR`)){
+                message.channel.send(`<:fear:609253347899211776>`);
   }
 
 });
