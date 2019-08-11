@@ -71,6 +71,7 @@ client.on('message', message => {
   }
 	
   if (msg.startsWith(`!FEAR`)){
+	        message.delete();
                 message.channel.send(`<:fear:609253347899211776>`);
   }
 
