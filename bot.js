@@ -105,12 +105,12 @@ if (msg.content.toLowerCase().startsWith(`<@599466909708189706> hello`)) {
    }
 if (msg.content.toLowerCase().includes(`<@599466909708189706>`)) {
 		var msg1 = Array(5); 
-		msg1[1] = `${msg.author} Can I help you?`;
-	    	msg1[2] = `${msg.author} Huh?`;
-		msg1[3] = `${msg.author} Yeah?`;
-		msg1[4] = `${msg.author} What?`;
-		msg1[5] = `${msg.author} :question:`
-		msg1[6] = `${msg.author} Sup?`
+		msg1[1] = `Can I help you?`;
+	    	msg1[2] = `Huh?`;
+		msg1[3] = `Yeah?`;
+		msg1[4] = `What?`;
+		msg1[5] = `:question:`
+		msg1[6] = `Sup?`
 		//msg1[6] = `${msg.author} You know I love Bobbo so much <:luv:550567524320804875>`
         	var x = getRandomInt(0, 20);
 		if (x < 5){ 
@@ -151,14 +151,14 @@ if (msg.content.toLowerCase().startsWith(`<@!599466909708189706> hi`)) {
 if (msg.content.toLowerCase().startsWith(`<@!599466909708189706> hello`)) {
     msg.channel.send(`Greetings! <:grinz:603408755677200412>`);
    }
-if (msg.content.toLowerCase().includes("<@!599466909708189706>")) {
+if (msg.content.toLowerCase().includes(`<@!599466909708189706>`)) {
 		var msg1 = Array(5); 
-		msg1[1] = `${msg.author} Can I help you?`;
-	    	msg1[2] = `${msg.author} Huh?`;
-		msg1[3] = `${msg.author} Yeah?`;
-		msg1[4] = `${msg.author} What?`;
-		msg1[5] = `${msg.author} :question:`
-		msg1[6] = `${msg.author} Sup?`
+		msg1[1] = `Can I help you?`;
+	    	msg1[2] = `Huh?`;
+		msg1[3] = `Yeah?`;
+		msg1[4] = `What?`;
+		msg1[5] = `:question:`
+		msg1[6] = `Sup?`
 		//msg1[6] = `${msg.author} You know I love Bobbo so much <:luv:550567524320804875>`
         	var x = getRandomInt(0, 20);
 		if (x < 5){ 
