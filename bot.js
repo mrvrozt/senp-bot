@@ -29,7 +29,7 @@ let statuses = ["FAULTLINES - Breathe",
 client.on('ready', () => {
 //client.user.setPresence({ game: { name: `Sdorica -mirage- with Tsathoggua`, type: 0 } });
 //client.user.setPresence({ game: { name: `FAULTLINES - Breathe`, type: 2 } });
-client.user.setPresence({ game: { name: `Building a Gunpla`, type: 3 } });
+client.user.setPresence({ game: { name: `with Bobbo's Gunpla`, type: 0 } });
 	
 	//setInterval(function() {
 		//let status = statuses[Math.floor(Math.random()*statuses.length)];
